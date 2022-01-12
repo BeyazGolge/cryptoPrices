@@ -1,0 +1,30 @@
+{
+  "name": "coindex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "bin": {
+    "coindex": "./bin/coindex.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeyazGolge/cryptoPrices.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BeyazGolge/cryptoPrices.js/issues"
+  },
+  "homepage": "https://github.com/BeyazGolge/cryptoPrices.js#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "colors": "^1.4.0",
+    "commander": "^8.3.0",
+    "configstore": "^6.0.0",
+    "inquirer": "^8.2.0"
+  }
+}
