@@ -1,5 +1,6 @@
 import { KeyManager } from "../lib/KeyManager.js";
-import { CryptoAPI } from "../lib/CryptoAPI.js";
+import CryptoAPI from "../lib/CryptoAPI.js";
+import colors from "colors";
 
 export const check = {
   async price(cmd) {
